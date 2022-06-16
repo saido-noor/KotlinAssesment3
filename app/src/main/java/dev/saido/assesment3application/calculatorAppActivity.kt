@@ -61,22 +61,22 @@ class calculatorAppActivity : AppCompatActivity() {
 
 
     fun addittion(number1:Int, number2:Int){
-        val addNumber = number1+number2
+        var addNumber = number1+number2
         tvView.text= addNumber.toString()
     }
 
     fun subtraction(number1:Int, number2:Int){
-        val subtractNumbers = number1-number2
+        var subtractNumbers = number1-number2
         tvView.text = subtractNumbers.toString()
     }
 
     fun modulus(number1:Int, number2:Int){
-        val modulusNumbers = number1%number2
+        var modulusNumbers = number1%number2
         tvView.text = modulusNumbers.toString()
     }
 
     fun division(number1:Int, number2:Int){
-        val divideNumbers = number1/number2
+        var divideNumbers = number1/number2
         tvView.text = divideNumbers.toString()
     }
 
