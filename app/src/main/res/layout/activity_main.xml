@@ -27,7 +27,7 @@
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#930F0F"
+        android:background="@color/purple_500"
         android:backgroundTint="#CA1616"
         android:text="Calculate"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"

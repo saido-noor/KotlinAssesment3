@@ -32,7 +32,7 @@ class calculatorAppActivity : AppCompatActivity() {
         btnAdd.setOnClickListener {
             val num1 = etNum1.text.toString()
             val num2 = etNum2.text.toString()
-            subtraction(num1.toInt(), num2.toInt())
+            addittion(num1.toInt(), num2.toInt())
 
         }
 
@@ -60,24 +60,24 @@ class calculatorAppActivity : AppCompatActivity() {
     }
 
 
-    fun addittion(num1:Int, num2:Int){
-        val num = num1+num2
-        tvView.text= num.toString()
+    fun addittion(number1:Int, number2:Int){
+        val addNumber = number1+number2
+        tvView.text= addNumber.toString()
     }
 
-    fun subtraction(num1:Int, num2:Int){
-        val num = num1-num2
-        tvView.text = num.toString()
+    fun subtraction(number1:Int, number2:Int){
+        val subtractNumbers = number1-number2
+        tvView.text = subtractNumbers.toString()
     }
 
-    fun modulus(num1:Int, num2:Int){
-        val num = num1%num2
-        tvView.text = num.toString()
+    fun modulus(number1:Int, number2:Int){
+        val modulusNumbers = number1%number2
+        tvView.text = modulusNumbers.toString()
     }
 
-    fun division(num1:Int, num2:Int){
-        val num = num1/num2
-        tvView.text = num.toString()
+    fun division(number1:Int, number2:Int){
+        val divideNumbers = number1/number2
+        tvView.text = divideNumbers.toString()
     }
 
 }
