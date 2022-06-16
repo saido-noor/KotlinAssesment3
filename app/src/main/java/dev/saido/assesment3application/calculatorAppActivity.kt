@@ -22,8 +22,9 @@ class calculatorAppActivity : AppCompatActivity() {
         setContentView(R.layout.activity_calculator_app)
         tilNumber1 = findViewById(R.id.tilNumber1)
         tilNumber2 = findViewById(R.id.tilNumber2)
-        etNum1=findViewById(R.id.etNum1)
-        etNum2=findViewById(R.id.etNum1)
+        etNum1 = findViewById(R.id.etNum1)
+        etNum2 = findViewById(R.id.etNum2)
+
         btnAdd = findViewById(R.id.btnAdd)
         btnSubtract = findViewById(R.id.btnSubtract)
         btnModulus = findViewById(R.id.btnModulus)
